@@ -11,13 +11,20 @@
 ## ✨ Tính năng Nổi bật
 ### 📝 Quản lý Nhật ký Cơ bản (CRUD)
 * **Thêm Nhật ký Mới:** Giao diện nhập liệu trực quan, lưu trữ nhanh chóng lên Firebase Firestore.
-* **Dòng thời gian:** Nhấp vào từng thẻ để xem lại trọn vẹn nội dung.
+* **Dòng thời gian:** Hiển thị danh sách nhật ký dạng Timeline theo thứ tự tùy chọn (Mới nhất / Cũ nhất).
 * **Xóa Nhật ký:** Hỗ trợ xóa bài viết cũ khi không còn nhu cầu lưu giữ, dữ liệu được cập nhật thời gian thực (Real-time).
 * 
-| 🆕 Thêm bài viết mới | 📅 Dòng thời gian | 📑 Xem chi tiết | ❌ Xóa bài viết |
-| :---: | :---: | :---: | :---: |
-| <img src="https://github.com/user-attachments/assets/c56574c4-efb4-4ab7-9ed9-549d0dd8c7b4" width="180" alt="Add Entry"/> | <img src="https://github.com/user-attachments/assets/3b82ab69-ff82-48ec-a9bc-513da3efc2ef" width="180" alt="Timeline Screen"/> | <img src="https://github.com/user-attachments/assets/0dfb01e9-970b-4e2a-8751-ead7d75e234e" width="180" alt="Detail Screen"/> | <img src="https://github.com/user-attachments/assets/fd04bd7c-963b-4c3e-95bb-cac3fe72f8ca" width="180" alt="Delete Action"/> |
-
 | 🆕 Thêm bài viết mới | 📅 Dòng thời gian nhật ký | ❌ Xóa bài viết |
 | :---: | :---: | :---: |
-| <img src="https://github.com/user-attachments/assets/c56574c4-efb4-4ab7-9ed9-549d0dd8c7b4" width="220" alt="Add Entry"/> | <img src="https://github.com/user-attachments/assets/0dfb01e9-970b-4e2a-8751-ead7d75e234e" width="220" alt="Timeline Screen"/> | <img src="https://github.com/user-attachments/assets/fd04bd7c-963b-4c3e-95bb-cac3fe72f8ca" width="220" alt="Delete Action"/> |
+| <img src="https://github.com/user-attachments/assets/73531335-9f5f-4b62-8068-896057c88dfe" width="220" alt="Add Entry"/> | <img src="https://github.com/user-attachments/assets/3b82ab69-ff82-48ec-a9bc-513da3efc2ef" width="220" alt="Timeline Screen"/> | <img src="https://github.com/user-attachments/assets/fd04bd7c-963b-4c3e-95bb-cac3fe72f8ca" width="220" alt="Delete Action"/> |
+
+### 🔄 Tương tác & Cập nhật Bài viết
+* **Xem Chi tiết:** Bấm vào một thẻ bất kỳ trên dòng thời gian để mở rộng, đọc lại toàn bộ câu chuyện đã viết.
+* **Cập nhật Nhật ký:** Chỉnh sửa lại nội dung chữ của bài viết cũ một cách nhanh chóng khi muốn bổ sung ý tưởng.
+* **Cập nhật Cảm xúc:** Thay đổi hoặc cập nhật lại trạng thái tâm trạng (Mood) đi kèm bài viết để phản ánh đúng cảm xúc hiện tại.
+
+| 📑 Xem chi tiết bài viết | ✍️ Chỉnh sửa nội dung | 🥰 Cập nhật cảm xúc |
+| :---: | :---: | :---: |
+| <img src="https://github.com/user-attachments/assets/1ba2c5c1-f398-4b91-82e8-1dda58bec79f" width="220" alt="Detail View"/> | <img src="https://github.com/user-attachments/assets/21e1c202-acaf-48fa-bb66-1f8f18dd63d5" width="220" alt="Edit Content"/> | <img src="https://github.com/user-attachments/assets/15cf4d90-7ef9-4e57-b0a7-845a99b1f4bc" width="220" alt="Update Mood"/> |
+
+<img width="869" height="1884" alt="z7842245104423_065103378d151c5b3d5ff6f2d0946e17"  />
