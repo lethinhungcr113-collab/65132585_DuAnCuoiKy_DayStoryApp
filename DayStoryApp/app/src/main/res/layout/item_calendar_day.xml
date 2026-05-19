@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/layoutDayRoot" android:layout_width="match_parent"
+    android:layout_height="52dp"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/txtDayNumber"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="15"
+        android:textColor="#332C54"
+        android:textSize="14sp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/imgHasDiary"
+        android:layout_width="12dp"
+        android:layout_height="12dp"
+        android:layout_marginTop="2dp"
+        android:src="@android:drawable/ic_menu_agenda"
+        android:visibility="gone"
+        app:tint="#7C5AC2" />
+
+</LinearLayout>

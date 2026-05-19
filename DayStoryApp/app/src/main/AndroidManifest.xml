@@ -40,6 +40,12 @@
         <activity
             android:name=".DetailStoryActivity"
             android:exported="false" />
+        <activity
+            android:name=".CalendarActivity"
+            android:exported="false" />
+        <activity
+            android:name=".AnalyticsActivity"
+            android:exported="false" />
     </application>
 
 </manifest>
