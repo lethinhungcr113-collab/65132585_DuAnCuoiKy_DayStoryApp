@@ -42,5 +42,5 @@
 
 | 🖼️ Tùy chọn Thêm ảnh (Chụp/Chọn ảnh) |
 | :---: |
-| <img src="https://github.com/user-attachments/assets/b2c3aba6-a47d-42d6-93c1-e31c60b73b9a" width="240" alt="Media Picker Screen"/> |
+| <img src="https://github.com/user-attachments/assets/b2c3aba6-a47d-42d6-93c1-e31c60b73b9a" width="220" alt="Media Picker Screen"/> |
 
