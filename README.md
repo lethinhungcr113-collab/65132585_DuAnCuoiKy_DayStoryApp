@@ -8,7 +8,7 @@
 
 | 🌅 Màn hình Intro (Welcome) |
 | :---: |
-| <img src="https://github.com/user-attachments/assets/bc0a80cf-15bc-4ba0-94a3-40a698d831b6" width="240" alt="Intro Screen"/> |
+| <img src="https://github.com/user-attachments/assets/bc0a80cf-15bc-4ba0-94a3-40a698d831b6" width="220" alt="Intro Screen"/> |
 
 ## 📸 Giao diện Ứng dụng
 
