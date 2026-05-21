@@ -140,7 +140,7 @@ public class AnalyticsActivity extends AppCompatActivity {
                 // Bị cách quãng từ 2 ngày trở lên -> Chuỗi liên tiếp bị đứt, dừng vòng lặp ngay
                 break;
             }
-            // Trường hợp diffInDays == 0 nghĩa là cùng một ngày viết nhiều bài, thuật toán tự bỏ qua không tính lặp
+            // Trường hợp diffInDays == 0 nghĩa là cùng một ngày viết nhiều bài
         }
 
         return streakCount;
