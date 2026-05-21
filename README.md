@@ -40,7 +40,7 @@
 * **Lưu giữ Kỷ niệm Trực quan:** Cho phép người dùng đính kèm hình ảnh thực tế vào mỗi bài viết, giúp những câu chuyện thường nhật trở nên sống động và ngập tràn màu sắc.
 * **Tùy chọn Hình ảnh Linh hoạt:** Hỗ trợ mở menu lựa chọn tiện ích gồm lấy ảnh trực tiếp từ **Máy ảnh (Camera)** hoặc chọn những tấm hình lung linh có sẵn trong **Thư viện ảnh (Gallery)**.
 
-| 🖼️ Tùy chọn Thêm ảnh (Chụp/Chọn ảnh) |
+| 🖼️ Tùy chọn Thêm ảnh |
 | :---: |
-| <img src="https://github.com/user-attachments/assets/b2c3aba6-a47d-42d6-93c1-e31c60b73b9a" width="220" alt="Media Picker Screen"/> |
+| <img src="https://github.com/user-attachments/assets/b2c3aba6-a47d-42d6-93c1-e31c60b73b9a" width="240" alt="Media Picker Screen"/> |
 
