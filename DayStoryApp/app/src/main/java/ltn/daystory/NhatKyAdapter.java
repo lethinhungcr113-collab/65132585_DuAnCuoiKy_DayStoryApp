@@ -149,12 +149,10 @@ public class NhatKyAdapter extends RecyclerView.Adapter<NhatKyAdapter.NhatKyView
         holder.btnDelete.setOnClickListener(v -> {
             int currentPosition = holder.getAdapterPosition();
             if (currentPosition == RecyclerView.NO_POSITION) return;
-
             AlertDialog dialog = new AlertDialog.Builder(context)
                     .setTitle("Xóa nhật ký")
                     .setMessage("Bạn có chắc muốn xóa nhật ký này không?")
                     .setPositiveButton("Xóa", (d, which) -> {
-
                         FirebaseFirestore.getInstance()
                                 .collection("DanhSachNhatKy")
                                 .document(nhatKy.getDocumentId())
@@ -162,13 +160,10 @@ public class NhatKyAdapter extends RecyclerView.Adapter<NhatKyAdapter.NhatKyView
                                 .addOnSuccessListener(unused -> {
                                     Toast.makeText(context, "Đã xóa nhật ký", Toast.LENGTH_SHORT).show();
                                 });
-
                     })
                     .setNegativeButton("Hủy", null)
                     .create();
-
             dialog.show();
-
             if (dialog.getWindow() != null) {
                 dialog.getWindow().setBackgroundDrawableResource(R.drawable.bg_5);
             }

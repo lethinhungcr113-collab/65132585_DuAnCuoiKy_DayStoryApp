@@ -113,7 +113,6 @@ public class MainActivity extends AppCompatActivity {
         if (listenerNhatKy != null) {
             listenerNhatKy.remove();
         }
-
         listenerNhatKy = duLieu
                 .collection("DanhSachNhatKy")
                 .orderBy("ngayThang", huongSapXep)
@@ -122,7 +121,6 @@ public class MainActivity extends AppCompatActivity {
                         error.printStackTrace();
                         return;
                     }
-
                     if (value != null) {
                         try {
                             danhSachNhatKy.clear();

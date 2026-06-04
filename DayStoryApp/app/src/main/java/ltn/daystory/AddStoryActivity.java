@@ -69,7 +69,6 @@ public class AddStoryActivity extends AppCompatActivity {
                         }
                     }
                 });
-
         boChonAnh = registerForActivityResult(
                 new ActivityResultContracts.StartActivityForResult(),
                 ketQua -> {
@@ -171,27 +170,21 @@ public class AddStoryActivity extends AppCompatActivity {
     private void luuDuLieuLenFirebase() {
         String text = edtContent.getText().toString().trim();
         String anhMaHoa = "";
-
         if (bitmapAnhChup != null) {
             // 1. Giảm kích thước ảnh xuống
             int maxWidth = 800;
             int maxHeight = (bitmapAnhChup.getHeight() * maxWidth) / bitmapAnhChup.getWidth();
             Bitmap bitmapNen = Bitmap.createScaledBitmap(bitmapAnhChup, maxWidth, maxHeight, true);
-
             // 2. Nén chất lượng ảnh
             ByteArrayOutputStream baos = new ByteArrayOutputStream();
             bitmapNen.compress(Bitmap.CompressFormat.JPEG, 85, baos); // Nén chất lượng 85%
             byte[] imageBytes = baos.toByteArray();
-
             anhMaHoa = Base64.encodeToString(imageBytes, Base64.DEFAULT);
         }
-
         Map<String, Object> nhatKy = new HashMap<>();
         nhatKy.put("noiDung", text);
         nhatKy.put("duongDanAnh", anhMaHoa);
-
         FirebaseFirestore firestore = FirebaseFirestore.getInstance();
-
         if (isEditMode && !documentId.isEmpty()) {
             firestore.collection("DanhSachNhatKy").document(documentId)
                     .update("noiDung", text, "duongDanAnh", anhMaHoa)
