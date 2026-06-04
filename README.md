@@ -1,7 +1,8 @@
 # 🌸 DayStory App - Ứng dụng Nhật ký & Khám phá Bản thân
 
 ## Video Demo Ứng Dụng
-[![Xem Video Demo](https://img.youtube.com/vi/fQLwqafVl28/0.jpg)](https://youtube.com/shorts/fQLwqafVl28?feature=share)
+
+[![Xem Video Demo](https://img.youtube.com/vi/fQLwqafVl28/0.jpg)](https://www.youtube.com/watch?v=fQLwqafVl28)
 
 **DayStory** là một ứng dụng di động nền tảng Android giúp người dùng dễ dàng lưu giữ những khoảnh khắc, cảm xúc và câu chuyện ý nghĩa mỗi ngày. Với giao diện hiện đại mang phong cách tối giản, tone màu tím hoàng hôn ấm áp cùng các tính năng quản lý, thống kê trực quan, DayStory chính là người bạn đồng hành tinh tế trên hành trình kết nối với thế giới nội tâm của bạn.
 
