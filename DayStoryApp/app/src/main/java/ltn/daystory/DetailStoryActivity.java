@@ -19,7 +19,7 @@ public class DetailStoryActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_detail_story);
 
-        // --- BƯỚC 1: ÁNH XẠ (Cẩn thận chỗ này) ---
+        // --- BƯỚC 1: ÁNH XẠ ---
         imgDetail = findViewById(R.id.imgDetail);
         txtNgay = findViewById(R.id.txtNgay);
         txtNoiDung = findViewById(R.id.txtNoiDung);
